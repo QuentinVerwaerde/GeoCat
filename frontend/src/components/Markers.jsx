@@ -46,6 +46,7 @@ function Markers({ arrParis, pictureAnatorParis, setPictureAnatorParis }) {
       setPictureAnatorParis(parisLocationHints[newDistrictIndex]);
     }
   };
+  console.info(remainingTries);
   const playLose = () => {
     new Audio(anatshortmeow).play();
   };
